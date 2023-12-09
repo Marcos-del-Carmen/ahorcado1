@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Pixelify Sans';
+    src: url('fonts/Pixelify_Sans/static/PixelifySans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Pixelify Sans'; 
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to top, #f85a0d, #f9920d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text {
+    display: inline-block;
+}
